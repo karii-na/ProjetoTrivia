@@ -1,0 +1,37 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+
+    <script type="text/javascript">
+      var nome = prompt("Digite seu nome: ");
+    </script>
+  </head>
+  <body>
+    <h1>Pet Quiz</h1>
+    <text id="saudacao">
+      <script>
+        document.write(
+          "Bem vindo, ",
+          nome,
+          ", escolha seu animal favorito para responder o quiz"
+        );
+      </script>
+    </text>
+
+    <div id="quiz">
+      <text>Qual é o seu pet favorito?</text>
+      <br /><br />
+      <input type="radio" id="cat" name="ir_quiz" value="cat2" />
+      <label>Gato</label><br />
+      <input type="radio" id="dog" name="ir_quiz" value="dog2" />
+      <label>Cachorro</label><br /><br />
+      <button onclick="funcao_escolha()" value="escolha_quiz">Escolher</button>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

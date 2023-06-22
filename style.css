@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Sofia");
+
+body {
+  background-image: url("https://img.freepik.com/vetores-premium/padrao-de-repeticao-vetorial-sem-costura-para-animais-de-estimacao-com-patas_654662-2650.jpg");
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #e1bee7;
+}
+
+h1 {
+  font-family: "Sofia", sans-serif;
+  color: #7b1fa2;
+}
+button {
+  align-content: center;
+  text-align: center;
+  cursor: pointer;
+  color: blueviolet;
+  background-color: #fffaf0;
+  border-radius: 5px;
+  box-shadow: 3px 5px grey;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+div[id="quiz"] {
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 2px 3px grey;
+  width: 40%;
+  background-color: #7b1fa2;
+  text-align: left;
+  color:aliceblue  ; 
+  border-style: solid;
+  border: 2px;
+}
+
+text {
+  margin-left: 10px;
+  color: #fffaf0;
+  font-weight: bold ;
+}
+
+label {
+  margin-left: 3px;
+}
+
+div[id="timer"] {
+  text-align: center;
+  background-color: #757575;
+  box-shadow: 2px 3px grey;
+  border-style: solid;
+  border: 2px;
+  width: 10%;
+}
+
+text[id="saudacao"] {
+  color: #9c27b0;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Quiz cão</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  </head>
+  <body>
+    <div id="timer"></div>
+    <h1>Quiz - você conhece seu cãozinho?</h1>
+    <div id="quiz">
+      <text>Qual o melhor momento para realizar a castração do macho?</text><br /><br />
+      <input type="radio" id="dog_true1" name="dog1" value="resposta_1.1" />
+      <label>A partir dos 6 meses</label><br />
+      <input
+        type="radio"
+        id="dog_false1"
+        name="dog1"
+        value="resposta_1.2"
+      />
+      <label>Não tem necessidade</label><br />
+      <input type="radio" id="dog_false1.2" name="dog1" value="resposta_2.3" />
+      <label>Nenhuma das anteriores</label>
+      <p></p>
+
+      <button id="enviar_resposta" onclick="funcao5()" value="Exibir_resposta1">
+        Enviar resposta
+      </button>
+      <br /><br />
+
+      <text>Quais vacinas são obrigatórias para o cão?</text><br /><br />
+      <input type="radio" name="dog2" id="dog_false2" value="resposta_2.1" />
+      <label>Não há necessidade de vacinar</label><br />
+      <input
+        type="radio"
+        name="dog2"
+        id="dog_true2"
+        value="resposta_2.2"
+      />
+      <label>Antirrábica e múltipla (V6, V8 ou V10) </label><br />
+      <input type="radio" name="dog2" id="dog_false2.2" value="resposta_2.3" />
+      <label>Antirrábica, múltipla (V6, V8 ou V10), gripe e giardia</label><br />
+      <p></p>
+      <button id="enviar_resposta" onclick="funcao6()" value="Exibir_resposta2">
+        Enviar resposta
+      </button>
+      <br /><br />
+
+      <text>Em qual momento o cão está liberado para o primeiro passeio na rua ou convívio com outros cães?
+              </text><br /><br />
+      <input type="radio" id="dog_false3" name="dog3" value="resposta_3.1" />
+      <label>Após a primeira vacina</label><br />
+      <input
+        type="radio"
+        id="dog_true3"
+        name="dog3"
+        value="resposta_3.1"
+      />
+      <label>Após terminar todo o protocolo vacinal</label><br />
+      <input type="radio" id="dog_false3.2" name="dog3" value="resposta_3.3" />
+      <label>Apartir dos 3 meses</label><br /><br />
+      <button id="enviar_resposta" onclick="funcao7()" value="exibir_Resposta3">
+        Enviar resposta
+      </button>
+      <br /><br />
+ 
+      <text>Com qual frequência deve ser administrado o vermifugo?</text><br /><br />
+      <input type="radio" id="dog_false4" name="dog4" value="resposta_4.1" />
+      <label>Uma vez por ano</label><br />
+      <input type="radio" id="dog_false4.2" name="dog4" value="resposta_4.2" />
+      <label>Não é necessário</label><br />
+      <input
+        type="radio"
+        id="dog_true4"
+        name="dog4"
+        value="resposta_4.3"
+      />
+      <label>A cada 6 meses</label><br /><br />
+      <button id="enviar_resposta" onclick="funcao8()" value="exibir_Resposta4">
+        Enviar resposta</button
+      ><br /><br>
+    </div>
+      <div>
+        <a href="index.html">
+          <button>
+            Voltar
+          </button>
+        </a>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
